@@ -3,11 +3,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 .header {
+    position: relative;
     width: 100%;
     height: 100vh;
     background-color: #556983;
-    background-image: url("./../img/header/header.jpg");
-    
+    background-image: url("./../img/header/header2.jpg");
+    background-size: cover;
+    background-position: center;
 
     display: flex;
     flex-direction: column;
@@ -30,5 +32,14 @@
     line-height: 1.5;
     text-align: center;
     letter-spacing: .2em;
+    color: #fff;
+}
+.header-arrow {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
     color: #fff;
 }
