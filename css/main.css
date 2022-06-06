@@ -1,0 +1,34 @@
+.body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: #556983;
+    background-image: url("./../img/header/header.jpg");
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.header-title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-family: 700;
+    font-size: 56px;
+    line-height: 1.3;
+    text-align: center;
+    color: #fff;
+}
+.header-subtitle {
+    margin: 0;
+    font-family: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: .2em;
+    color: #fff;
+}
