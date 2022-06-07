@@ -1,7 +1,9 @@
 * {
+    margin: 0;
     box-sizing: border-box;
 }
 .body {
+    padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -96,5 +98,78 @@
     margin-bottom: 0;
 }
 .footer {
-    background: #556983;
+    background: #192f49;
+    padding-top: 45px;
+    padding-bottom: 130px;
+    color: #fff;
+}
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footer-copyright {
+    max-width: 350px;
+    flex-grow: 1;
+    line-height: 1.3;
+}
+.footer-copyright-name {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.3;
+    margin-bottom: 18px;
+}
+.footer-copyright p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer-icons {
+    max-width: 350px;
+    flex-grow: 1;
+}
+.footer-icons-row {
+    display: flex;
+    align-items: center;
+}
+.footer-icons-row > *  {
+    color: #fff;
+}
+.footer-icons-row > * + * {
+    margin-left: 10px;
+}
+.footer-icons-p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+}
+.footer-icon {
+    cursor: pointer;
+}
+.footer-contacts {
+    max-width: 350px;
+    flex-grow: 1;
+}
+.footer-but {
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 44px;
+
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.footer-contacts-p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.3;
+
 }
