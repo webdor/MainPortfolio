@@ -28,6 +28,16 @@ img {
     justify-content: center;
     text-align: center;
 }
+.countries {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
 .container {
     max-width: 1140px;
     margin-left: auto;
@@ -207,7 +217,8 @@ img {
     padding-bottom: 120px;
 }
 .project-header {
-    margin: 20px 0 70px 0;
+    /*background-color: #2e588c;*/
+    padding: 20px 0 70px 0;
     font-weight: 700;
     font-size: 46px;
     text-align: center;
