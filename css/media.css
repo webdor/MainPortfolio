@@ -23,7 +23,7 @@
 /*Для экранов с шириной до 768px*/
 @media (max-width: 768px) {
     .countries {
-        
+
     }
     .header-title {
         font-size: 32px;
@@ -80,6 +80,9 @@
     }
     .project-description {
         margin-bottom: 50px;
+    }
+    .project-but {
+        font-size: 12px;
     }
     .project-but {
         margin-bottom: 0;
