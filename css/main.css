@@ -127,6 +127,10 @@ img {
 .card:last-child, .card:nth-last-child(2) {
     margin-bottom: 0;
 }
+.project-description-link {
+   display: flex;
+   justify-content: center;
+}
 .footer {
     background: #192f49;
     padding-top: 45px;
@@ -262,5 +266,18 @@ img {
 .project-but:hover {
     background-color: #275bec;
     color: white;
+}
+.change-lang {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    background-color: rgb(26, 6, 84);
+    color: #fff;
+    border-radius: 3px;
+
+    position: absolute;
+    right: 10px;
+    top: 5px;
 }
 

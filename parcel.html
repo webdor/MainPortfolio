@@ -13,20 +13,28 @@
 </head>
 <body>
     <main>
-        <!--ActiveBox-->
+
+        <select class="change-lang" name="lang" id="change-lang">
+            <option value="ua">UA</option>
+            <option value="ru">RU</option>
+            <option value="en" selected>EN</option>
+        </select>
+
+        <!--Parcel-->
         <article class="project">
             <div class="container cont">
 
-                <h1 class="project-header">Landing layout "Parcel"</h1>
+                <h1 class="project-header lng-names-parcel">Landing layout "Parcel"</h1>
                 <div class="progect-img">
                     <img src="./img/card/Parcel/Parcel.jpg" alt="Верстка сайта 'Parcel'">
                 </div>
 
                 <div class="project-description">
-                    <p>Landing layout in HTML/CSS</p>
-                    <p>Website address:<a href="#"> site.com</a></p>
+                    <p class="lng-description-parcel">Landing layout in HTML/CSS</p>
+                    <p class="lng-go-link">Website address</p>
+                    <a class="project-description-link" href="#"> site.com</a>
                 </div>
-                <a href="index.html" class="project-but">Go back to the main page</a>
+                <a href="index.html" class="project-but lng-go-back">Go back to the main page</a>
 
             </div>
         </article>
@@ -37,12 +45,12 @@
         <div class="container">
             <div class="footer-row">
                 <div class="footer-copyright footer-col">
-                    <div class="footer-copyright-name">Ihor Hrebeniuk</div>
-                    <p>HTML layout and website development</p>
+                    <div class="footer-copyright-name lng-copyright-name">Ihor Hrebeniuk</div>
+                    <p class="lng-copyright-text">HTML layout and website development</p>
                 </div>
 
                 <div class="footer-icons footer-col">
-                    <p class="footer-icons-p">My social media profiles</p>
+                    <p class="footer-icons-p lng-icon-text">My social media profiles</p>
 
                     <div class="footer-icons-row">
                         <a href="https://www.behance.net/sabordex" class="footer-icon">
@@ -67,13 +75,19 @@
                 </div>
 
                 <div class="footer-contacts footer-col">
-                    <a href="#" class="footer-but">Contact Telegram</a>
+                    <a href="https://web.telegram.org/z/" class="footer-but lng-contact-telegram">Contact Telegram</a>
 
-                    <p class="footer-contacts-p">Write to me to order or find out the cost of layout of your project</p>
+                    <p class="footer-contacts-p lng-contact-telegram-text">Write to me to order or find out the cost of layout of your project</p>
                 </div>
             </div>
         </div>
     </footer>
     <!--footer-->
+
+    <!--собственные скрипты и вызовы библиотек-->
+    <script src="./js/main.js"></script>
+    <script src="./js/lang.js"></script>
+    <script src="./js/app.js"></script>
+
 </body>
 </html>

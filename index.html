@@ -14,17 +14,23 @@
 <body>
     <header class="header" id="header">
 
-        <div class="countries">
+        <select class="change-lang" name="lang" id="change-lang">
+            <option value="ua">UA</option>
+            <option value="ru">RU</option>
+            <option value="en" selected>EN</option>
+        </select>
+
+       <!-- <div class="countries">
             <a href="#">
                 <img src="./img/svg/countries/en.png" alt="EN" width="30px">
             </a>
             <a href="#">
                 <img src="./img/svg/countries/ua.png" alt="EN" width="30px">
             </a>
-        </div>
+        </div>-->
 
         <h1 class="header-title lng-unit">Ihor Hrebeniuk</h1>
-        <h2 class="header-subtitle lang-speciality">freelancer, front-end developer, web developer, website development</h2>
+        <h2 class="header-subtitle lng-speciality">freelancer, front-end developer, web developer, website development</h2>
 
         <a href="#portfolio" class="header-arrow">
            <img src="./img/arrow.svg" alt="arrow">
@@ -33,7 +39,7 @@
     <main>
         <section class="portfolio" id="portfolio">
             <div class="container">
-                <h2 class="portfolio-header">Portfolio</h2>
+                <h2 class="portfolio-header lng-home-portfolio">Portfolio</h2>
 
                 <!--portfolio-card-wrapper-->
             <div class="portfolio-cards-wrapper">
@@ -43,32 +49,32 @@
                         <a href="activebox.html" class="card-link">
                             <img class="card-img" src="./img/card/ActiveBox/Activebox_Fon.jpg"
                             alt="Сайт Parcel">
-                            <h3 class="card-title">Landing page</h3>
-                            <p class="card-text">Layout of a multi-page site</p>
+                            <h3 class="card-title lng-card1-title">Landing page</h3>
+                            <p class="card-text lng-card1-text">Layout of a multi-page site</p>
                         </a>
                     </div>
                     <div class="card">
                         <a href="parcel.html" class="card-link">
                             <img class="card-img" src="./img/card/Parcel/Parcel_Fon.jpg"
                             alt="Сайт parcel">
-                            <h3 class="card-title">Landing page</h3>
-                            <p class="card-text">Layout of a multi-page site</p>
+                            <h3 class="card-title lng-card2-title">Landing page</h3>
+                            <p class="card-text lng-card2-text">Layout of a multi-page site</p>
                         </a>
                     </div>
                     <div class="card">
                         <a href="mainportfolio.html" class="card-link">
                             <img class="card-img" src="./img/card/MainPortfolio/MainPortfolio_Fon.jpg"
                             alt="Сайт parcel">
-                            <h3 class="card-title">Portfolio website</h3>
-                            <p class="card-text">Portfolio site layout</p>
+                            <h3 class="card-title lng-card3-title">Portfolio website</h3>
+                            <p class="card-text lng-card3-text">Portfolio site layout</p>
                         </a>
                     </div>
                     <div class="card">
                         <a href="personalblog.html" class="card-link">
                             <img class="card-img" src="./img/card/PersonalBlog/PersonalBlog_Fon.jpg"
                             alt="Сайт parcel">
-                            <h3 class="card-title">Multi-page blog site</h3>
-                            <p class="card-text">Layout of a multi-page blog site</p>
+                            <h3 class="card-title lng-card4-title">Multi-page blog site</h3>
+                            <p class="card-text lng-card4-text">Layout of a multi-page blog site</p>
                         </a>
                     </div>
                     <!--/card-->
@@ -82,12 +88,12 @@
         <div class="container">
             <div class="footer-row">
                 <div class="footer-copyright footer-col">
-                    <div class="footer-copyright-name">Ihor Hrebeniuk</div>
-                    <p>HTML layout and website development</p>
+                    <div class="footer-copyright-name lng-copyright-name">Ihor Hrebeniuk</div>
+                    <p class="lng-copyright-text">HTML layout and website development</p>
                 </div>
 
                 <div class="footer-icons footer-col">
-                    <p class="footer-icons-p">My social media profiles</p>
+                    <p class="footer-icons-p lng-icon-text">My social media profiles</p>
 
                     <div class="footer-icons-row">
                         <a href="https://www.behance.net/sabordex" class="footer-icon">
@@ -112,9 +118,9 @@
                 </div>
 
                 <div class="footer-contacts footer-col">
-                    <a href="#" class="footer-but">Contact Telegram</a>
+                    <a href="https://web.telegram.org/z/" class="footer-but lng-contact-telegram">Contact Telegram</a>
 
-                    <p class="footer-contacts-p">Write to me to order or find out the cost of layout of your project</p>
+                    <p class="footer-contacts-p lng-contact-telegram-text">Write to me to order or find out the cost of layout of your project</p>
                 </div>
             </div>
         </div>
