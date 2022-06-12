@@ -221,8 +221,8 @@ img {
     padding-bottom: 120px;
 }
 .project-header {
-    /*background-color: #2e588c;*/
-    padding: 20px 0 70px 0;
+    background-color: #7cd1f3;
+    padding: 40px 0 60px 0;
     font-weight: 700;
     font-size: 46px;
     text-align: center;
@@ -280,4 +280,37 @@ img {
     right: 10px;
     top: 5px;
 }
+
+/*Skills*/
+.container-skills {
+    width: 100%;
+  }
+
+  .skills {
+    margin-bottom: 5px;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 16px;
+    color: white;
+    font-size: 15px;
+  }
+  .skills-title {
+    font-size: 46px;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 60px;
+  }
+  .skills-text {
+    margin-left: 16px;
+  }
+
+  .html {width: 99%; background-color: #FE2712;}
+  .css {width: 98%; background-color: #FC600A;}
+  .js {width: 75%; background-color: #FB9902;}
+  .jquery {width: 70%; background-color: #66B032;}
+  .bootstrap {width: 78%; background-color: #347C98;}
+  .less {width: 80%; background-color: #0247FE;}
+  .figma {width: 90%; background-color: #4424D6;}
+  .photoshop {width: 85%; background-color: #8601AF;}
+  .avokode {width: 60%; background-color: #998066;}
 
